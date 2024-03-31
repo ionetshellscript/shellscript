@@ -27,5 +27,4 @@ set USER_ID=dcee5b04-9ced-4ff0-90fa-c845089865b9
 :: Sử dụng các biến trong lệnh docker run
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock -e DEVICE_NAME="%DEVICE_NAME%" -e DEVICE_ID="%DEVICE_ID%" -e USER_ID="%USER_ID%" -e OPERATING_SYSTEM="Windows" -e USEGPUS=true --pull always ionetcontainers/io-launch:v0.1
 
-pause
 
