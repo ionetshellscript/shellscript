@@ -9,7 +9,6 @@ if %errorlevel% neq 0 (
 )
 
 echo Docker is ready.
-:: stop và remove các docker đang chạy
 echo Stopping and removing all Docker containers...
 echo Stopping and removing all running Docker containers...
 for /f "tokens=1" %%i in ('docker container ls -q') do (
